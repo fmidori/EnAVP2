@@ -20,13 +20,20 @@ Install EnAVP (will only instal in current environment):
 
     python setup.py install
 
-## Using
+## Using for Prediction
 
 To run the model on a fasta file:
 
     enavp <input.fasta> --out out.tsv
 
 Use `enavp -h` to see aditional documentation and options.
+
+## Using for Prediction and Classification 
+
+To run the model on a fasta file:
+
+    enavp-classify <input.fasta> --out out.tsv
+
 
 ## Tests
 

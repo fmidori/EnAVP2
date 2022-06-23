@@ -1,0 +1,5 @@
+[console_scripts]
+enavp = enavp.predict:run
+enavp-classify = enavp.predict_and_classify:run
+enavp-train = enavp.train:run
+
