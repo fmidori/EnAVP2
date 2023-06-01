@@ -1,6 +1,8 @@
-# EnAVP
-
-Ensemble AntiViral Peptide prediction tool.
+# EnAVPCLass
+http://cetics.butantan.gov.br/ceticsdb/classificationtools/enavpclass/ (online version in construction)
+Antiviral Peptides prediction and classification. 
+This repo is a draft for yutaka/EnAVPClass, oficial version of EnAVPClass. 
+EnAVPClass is a two-stage classifier method for the prediction and classification of AVPs. The first stage consists of an ensemble model of a Deep Recurrent Neural Network and a Random Forest module, built to predict the antiviral activity of unknown peptides. The second stage uses a Support Vector Machine to classify the AVPs by their mechanisms of action, classified in (i) Membrane (AVPs that interact with the viral capsid membrane), (ii) Replication (AVPs that interfere with viral replication inside the cell), and (iii) Assembly (AVPs that interfere with the viral assembly of new particles inside the cell). 
 
 ## Instalation
 
